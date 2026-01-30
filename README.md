@@ -15,7 +15,7 @@ The website will serve as the primary digital platform for:
 - Sponsorship and partnership engagement
 - Policy dialogue and networking opportunities
 
-The design will follow a modern, premium conference experience inspired by the provided reference video, enhanced with smooth animations and interactive UI.
+The design will follow a modern, premium conference experience, enhanced with smooth animations and interactive UI.
 
 ---
 
