@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Poppins, Albert_Sans } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -61,7 +63,9 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} ${albertSans.variable} antialiased`}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

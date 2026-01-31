@@ -45,6 +45,25 @@
   --radius-2xl: calc(var(--radius) + 8px);
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
+
+  /* Custom Colors */
+  --color-custom-primary: var(--custom-primary);
+  --color-custom-white: var(--custom-white);
+  --color-custom-ivory: var(--custom-ivory);
+  --color-custom-dark: var(--custom-dark);
+  --color-custom-light-dark: var(--custom-light-dark);
+  --color-custom-black: var(--custom-black);
+  --color-boston-blue-50: var(--boston-blue-50);
+  --color-boston-blue-100: var(--color-boston-blue-100);
+  --color-boston-blue-200: var(--color-boston-blue-200);
+  --color-boston-blue-300: var(--color-boston-blue-300);
+  --color-boston-blue-400: var(--color-boston-blue-400);
+  --color-boston-blue-500: var(--color-boston-blue-500);
+  --color-boston-blue-600: var(--color-boston-blue-600);
+  --color-boston-blue-700: var(--color-boston-blue-700);
+  --color-boston-blue-800: var(--color-boston-blue-800);
+  --color-boston-blue-900: var(--color-boston-blue-900);
+  --color-boston-blue-950: var(--color-boston-blue-950);
 }
 
 body {
@@ -79,6 +98,25 @@ p {
   --foreground: oklch(0.13 0.028 261.692);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.13 0.028 261.692);
+  /* Custom Colors */
+  --custom-primary: #3497ba;
+  --custom-white: #ffffff;
+  --custom-ivory: #fffff0;
+  --custom-dark: #262626;
+  --custom-light-dark: #7b7b7b;
+  --custom-black: #363636;
+  --color-boston-blue-50: #f0fafb;
+  --color-boston-blue-100: #d8eff5;
+  --color-boston-blue-200: #b7dfea;
+  --color-boston-blue-300: #85c7db;
+  --color-boston-blue-400: #4ba7c5;
+  --color-boston-blue-500: #3497ba;
+  --color-boston-blue-600: #2a7090;
+  --color-boston-blue-700: #285c76;
+  --color-boston-blue-800: #284d62;
+  --color-boston-blue-900: #264253;
+  --color-boston-blue-950: #142a38;
+
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.13 0.028 261.692);
   --primary: oklch(0.6 0.1 185);
